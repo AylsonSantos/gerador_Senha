@@ -1,6 +1,6 @@
 ﻿# gerador_Senha
 
-Projeto voltado para pratrica de :
+## Projeto voltado para pratrica de :
 
 Versionamento github
 
@@ -11,6 +11,7 @@ Html
 JavaScrip
 
 Api do Navegador
+
 Extensões VScode
 
 Obs.: cada comit está sendo realizado de acordo com os avanços das partes
