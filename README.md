@@ -2,11 +2,11 @@
 
 Projeto voltado para pratrica de :
 
-Versionamento github
-Design
-Html
-JavaScrip
-Api do Navegador
+Versionamento github 
+Design 
+Html 
+JavaScrip 
+Api do Navegador 
 Extensões VScode
 
 Obs.: cada comit está sendo realizado de acordo com os avanços das partes
