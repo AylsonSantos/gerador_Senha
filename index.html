@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <h1>Gerador de Senha</h1>
-        <p>Utilize nosso gerador online para criar uma senha forte e segura.</p>
-        
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Gerador de Senha</h1>
+    <p>Utilize nosso gerador online para criar uma senha forte e segura.</p>
 
-        <input type="text" name="password" id="password">
-<input type="range" name="password-length" id="password-length" value="16" min="4" max="30"> 
-   
-    </body>
+    <input type="text" name="password" id="password" />
+    <input
+      type="range"
+      name="password-length"
+      id="password-length"
+      value="16"
+      min="4"
+      max="30"
+    />
+
+    <button>Copiar Senha</button>
+
+    <script>
+      function generatePassword() {
+          const chars = "abcdefghjkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ123456789?!@&*()[]"
+          let password = ""
+
+          for (let i = 0; i < chars.length; i++) {
+            const randonNumber = Math.floor(Math.randon() * chars.length)
+              password += chars.substring(randonNumber, randonNumber + 1)
+          }
+          console.log(password)
+      }
+
+      generatePassword()
+    </script>
+  </body>
 </html>
