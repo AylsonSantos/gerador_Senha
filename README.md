@@ -1,6 +1,6 @@
 ﻿# gerador_Senha
 
-## Projeto voltado para pratrica de :
+# Projeto voltado para pratrica de :
 
 Versionamento github
 
