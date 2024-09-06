@@ -22,5 +22,7 @@ Criaçao de toda estrutura
 # Segunda parte 
 Inclusão da parte logica da nossa estrutura criada.
 
+# Terceira parte
+Adicionando o elemento de chamada do input para pegar os dados da memoria.
 
 
