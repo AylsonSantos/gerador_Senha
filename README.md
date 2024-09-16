@@ -25,4 +25,5 @@ Inclusão da parte logica da nossa estrutura criada.
 # Terceira parte
 Adicionando o elemento de chamada do input para pegar os dados da memoria.
 
-
+# Quarta parte
+Implementando os elemetnos do ranger, para que que senha seja gerada conforme movermos o ranger
