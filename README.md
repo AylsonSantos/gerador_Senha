@@ -27,3 +27,6 @@ Adicionando o elemento de chamada do input para pegar os dados da memoria.
 
 # Quarta parte
 Implementando os elemetnos do ranger, para que que senha seja gerada conforme movermos o ranger
+
+# Quinta Parte
+Implementando o copiar e colar por meio da API do proprio navegador, que me permite copiar qualquer texto "writeText" e colar no navegador 
